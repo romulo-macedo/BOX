@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Navbar from './components/Navbar';
+import Navigation from './components/Navigation';
 import Dashboard from './components/Dashboard';
 import TrainingMode from './components/TrainingMode';
 import Cornerman from './components/Cornerman';
@@ -40,7 +40,7 @@ const App: React.FC = () => {
       
       {/* Navigation - Bottom on Mobile, Left on Desktop */}
       <div className="order-2 md:order-1 flex-none">
-        <Navbar currentView={currentView} setView={setCurrentView} />
+        <Navigation currentView={currentView} setView={setCurrentView} />
       </div>
 
       {/* Main Content Area */}
