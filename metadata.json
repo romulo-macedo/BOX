@@ -1,0 +1,8 @@
+{
+  "name": "ShadowBox VR AI",
+  "description": "A boxing training simulator and tactical interface designed for Meta Quest browsers. Features AI-generated combos, shadow boxing drills, and a futuristic HUD.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
